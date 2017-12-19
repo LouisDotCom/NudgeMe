@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //LB: this is where I add border (from http://www.richardhsu.me/posts/2015/01/17/textview-border.html)
-        let borderColor : UIColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1.0)//(red: 0.7, green: 0.2, blue: 0.0, alpha: 1.0)
+        let borderColor : UIColor = UIColor(red: 0.5569, green: 0, blue: 0.6667, alpha: 1.0)//red: 1, green: 1, blue: 1, alpha: 1.0)
         TextViewItem.layer.borderWidth = 1
         TextViewItem.layer.borderColor = borderColor.cgColor
         TextViewItem.layer.cornerRadius = 5.0
