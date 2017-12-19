@@ -83,14 +83,14 @@
                                             <constraint firstAttribute="width" secondItem="hyf-m3-m1w" secondAttribute="height" multiplier="288:43" id="XnO-T3-13g"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Nudge Me" backgroundImage="button">
+                                        <state key="normal" title="Stuck? Get a nudge." backgroundImage="button">
                                             <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
                                             <action selector="NextItemControl:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NvV-dm-cDY"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Stuck? Get a nudge." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UOb-aC-Y2n" userLabel="TextViewItem" propertyAccessControl="none">
+                                    <textView clipsSubviews="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UOb-aC-Y2n" userLabel="TextViewItem" propertyAccessControl="none">
                                         <rect key="frame" x="0.0" y="243" width="288" height="201"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
