@@ -1,6 +1,6 @@
 # Nudge Me
 
-##Description
+## Description
 
 Orange Noise Production Company (orangenoiseproduction.com) is glad to provide Nudge Me—an app designed to offset human inertia for people who respond well to suggestions (that they've created). It addresses the doldrums. It comes with a list of generic suggestions that can be (a) edited, (b) deleted, and (c) restored again.
 
@@ -11,7 +11,7 @@ In addition to suggestions are three filters: --needs revision
 
 Devices and orientation: should run on currently supported iPhones and iPads in a portrait-only orientation.
 
-##Pre-Release History:
+## Pre-Release History:
 
 _Under NextIem project:_
 
