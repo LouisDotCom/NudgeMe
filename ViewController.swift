@@ -51,9 +51,7 @@ class ViewController: UIViewController {
 //TODO: user should be able to restore defaults
 //TODO: user should be able to wipe out customizations (but not go back to defaults) in order to have a blank list
 //LB TODO: (from email to Chris 11/28/17) What I envision in the Customize view is this:
-// - The table would show all the items, scrollable.
-// - Each row would allow a left-swipe with 3 options: delete, edit, and advanced. (edit might not be necessary, just a new button)
-// - If advanced were chosen, then the single record would probably have its own screen (a hierarchical drill down), and there the additional fields would show up: Frequency (low, medium, high) and TimeSensitive (all, day, night)--and be editable (otherwise medium and all would be the defaults)
-// - Additionally (ultimately), somewhere in the first customize screen would be options to (1) restore defaults... the plist shipped and (2) delete all suggestions (giving the user a blank slate, esp. useful if he/she wants only a short list, say of 5 or 10 items
+// - The table would show all the items, scrollable, with the ability to edit the item or delete it
+// - Editing includes Frequency (low, medium, high) TimeSensitive (all, day, night), and Category (otherwise medium, all, and all-categories would be the defaults)
 // - I'm wondering if in the advanced screen, the user could set a suggestion to "remind me once a day or week or month" -- it seems there must be some standard functions for reminders (used in Apple's Reminders app for example... I don't suppose Apple let's us view the code for their standard apps, do they?)
 
