@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BF14178204B70DD000DAB0B /* ItemsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF14177204B70DD000DAB0B /* ItemsTableTableViewController.swift */; };
+		2BF14178204B70DD000DAB0B /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF14177204B70DD000DAB0B /* ItemsTableViewController.swift */; };
 		4F3E5AC91F7ED00A00BAAD34 /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F3E5AC81F7ED00A00BAAD34 /* items.plist */; };
 		4F3E5ACB1F7EEAC300BAAD34 /* ItemArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E5ACA1F7EEAC300BAAD34 /* ItemArray.swift */; };
 		4FC6EE5C1FCCE4CB00228F20 /* items2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6EE5B1FCCE4CB00228F20 /* items2.plist */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2BF14177204B70DD000DAB0B /* ItemsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableTableViewController.swift; sourceTree = "<group>"; };
+		2BF14177204B70DD000DAB0B /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 		4F3E5AC81F7ED00A00BAAD34 /* items.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
 		4F3E5ACA1F7EEAC300BAAD34 /* ItemArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemArray.swift; sourceTree = "<group>"; };
 		4FC6EE5B1FCCE4CB00228F20 /* items2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = items2.plist; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		BF228DD71F1C713A005949E9 /* NudgeMe */ = {
 			isa = PBXGroup;
 			children = (
-				2BF14177204B70DD000DAB0B /* ItemsTableTableViewController.swift */,
+				2BF14177204B70DD000DAB0B /* ItemsTableViewController.swift */,
 				BF228DD81F1C713A005949E9 /* AppDelegate.swift */,
 				BF3716801F36C13F00789087 /* ViewController.swift */,
 				4F3E5AC81F7ED00A00BAAD34 /* items.plist */,
@@ -155,7 +155,7 @@
 				4F3E5ACB1F7EEAC300BAAD34 /* ItemArray.swift in Sources */,
 				BF3716811F36C13F00789087 /* ViewController.swift in Sources */,
 				BF228DD91F1C713A005949E9 /* AppDelegate.swift in Sources */,
-				2BF14178204B70DD000DAB0B /* ItemsTableTableViewController.swift in Sources */,
+				2BF14178204B70DD000DAB0B /* ItemsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
