@@ -11,21 +11,30 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Customize-->
         <scene sceneID="fje-kU-buc">
             <objects>
-                <tableViewController id="cLJ-iB-HFR" sceneMemberID="viewController">
+                <tableViewController title="Customize" id="cLJ-iB-HFR" customClass="ItemsTableTableViewController" customModule="Nudge_Me" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Koe-sT-NLq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProtoTypeCells" id="Rhp-Gw-W8a">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="itemCell" textLabel="tjH-vM-dWE" style="IBUITableViewCellStyleDefault" id="Rhp-Gw-W8a">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rhp-Gw-W8a" id="VZ6-1d-Gne">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tjH-vM-dWE">
+                                            <rect key="frame" x="16" y="0.0" width="288" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -34,7 +43,7 @@
                             <outlet property="delegate" destination="cLJ-iB-HFR" id="YFB-ic-QPw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="RAO-uN-bR9"/>
+                    <navigationItem key="navigationItem" title="Customize" id="RAO-uN-bR9"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bmm-C9-MNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,7 +130,7 @@
                     <navigationItem key="navigationItem" id="zrO-Mn-NQq">
                         <barButtonItem key="rightBarButtonItem" title="Customize" id="Qeb-0U-L9t">
                             <connections>
-                                <segue destination="cLJ-iB-HFR" kind="show" id="Wih-7s-NKs"/>
+                                <segue destination="cLJ-iB-HFR" kind="show" identifier="showTable" id="Wih-7s-NKs"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
